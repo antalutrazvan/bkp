@@ -1,0 +1,26 @@
+.button {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.primary {
+  color: #fff;
+  background-color: #900;
+
+  &:hover:not(.disabled),
+  &:focus:not(.disabled) {
+    background-color: #f00;
+  }
+}
+
+.secondary {
+  color: #fff;
+  background-color: #f90;
+  border: 1px solid #900;
+
+  &:hover:not(.disabled):not(.missing),
+  &:focus:not(.disabled):not(.missing) {
+    color: #f90;
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,20 @@
+.split {
+  display: flex;
+  width: 100%;
+  margin: 0 0 1rem;
+
+  > pre {
+    margin: 0;
+  }
+
+  > * {
+    flex-grow: 1;
+  }
+  > :first-child {
+    flex-basis: 75%;
+    padding-right: 32px;
+  }
+  > :last-child {
+    flex-basis: 25%;
+  }
+}

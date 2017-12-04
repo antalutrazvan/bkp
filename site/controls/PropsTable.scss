@@ -1,0 +1,45 @@
+$blue: #049fd9;
+$river-blue: #097dbc;
+$heading-blue: #024259;
+$key-purple: #562360;
+$light-gray: #f6f6f6;
+$dark-gray: #58585b;
+$med-gray-1: #c6c7ca;
+
+// status
+$green: #6cc04a;
+$orange: #faa000;
+$red: #cf2030;
+
+.props-table {
+    width: 100%;
+    text-align: left;
+    // so rows can accept border rules
+    border-collapse: collapse;
+}
+
+head {
+    font-weight: bold;
+    font-size: 18px;
+    color: $dark-gray;
+    text-transform: uppercase;
+}
+
+.row {
+    border-bottom: 1px solid $med-gray-1;
+
+    td {        
+        padding: 15px 0 15px 15px;
+    }
+}
+
+.union-name {
+    &:before {
+      content: "•";
+      padding: 0 15px;
+    }
+}
+
+.union-key {
+    color: $river-blue;
+}

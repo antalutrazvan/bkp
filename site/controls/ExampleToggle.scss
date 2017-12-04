@@ -1,0 +1,27 @@
+.toggle {
+  height: 24px;
+  width: 64px;
+  border: 1px solid #c6c7ca;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #7f7f86;
+
+  button {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    width: 32px;
+    height: 24px;
+    line-height: 18px;
+
+    &:first-child {
+      border-right: 1px solid #c6c7ca;
+    }
+    &.selected,
+    &:hover {
+      color: #fff;
+      background-color: #049fd9;
+      cursor: pointer;
+    }
+  }
+}

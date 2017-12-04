@@ -1,0 +1,11 @@
+.button {
+  color: #fff;
+  background-color: #fc3;
+  transition: all 0.2s ease-in-out;
+
+  &:hover:not(.disabled) {
+    color: #15158f;
+    background-color: #c90;
+    transform: scale(1.2);
+  }
+}
